@@ -2,7 +2,7 @@ import pygame
 from sys import exit
 
 size = width, height = (600, 600)
-fps = 30
+fps = 60
 
 class Square(pygame.sprite.Sprite):
     def __init__(self, x, y, label):
